@@ -1,0 +1,39 @@
+.row-cols-2>* {
+    flex: 0 0 auto;
+    width: 44%;
+}
+
+.wrapper {
+    padding-left: 15rem;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: #ffdab9 !important;
+    padding: 0 !important;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.margin-on-top {
+    margin-top: 2rem;
+}
+
+.margin-and-float {
+    width: 280px;
+    float: left;
+    margin-right: 1rem;
+}
+
+.yummy-logo {
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.ingredients li:nth-child(even) {
+    background-color: rgb(240, 240, 240);
+}
