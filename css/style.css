@@ -37,3 +37,12 @@
 .ingredients li:nth-child(even) {
     background-color: rgb(240, 240, 240);
 }
+
+.card-img-top {
+    max-width: 700px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 3rem;
+    border-radius: 10px;
+    box-shadow: 1px 4px 9px -4.5px #000;
+}
