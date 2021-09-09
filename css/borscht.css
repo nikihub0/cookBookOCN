@@ -1,0 +1,25 @@
+#card-olena {
+  background-color: #e0f8f7;
+}
+
+.card-body-borscht {
+  background-color: #f5f6ce;
+}
+.but {
+  background-color: #f5f6ce;
+}
+/*-------------------------------------------*/
+
+/* increase image */
+
+.scale {
+  transition: 1s;
+  /* Effect time  */
+}
+
+.scale:hover {
+  transform: scale(1.2);
+  /* Zoom in  */
+}
+
+/*CSS tooltip */
