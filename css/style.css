@@ -1,44 +1,66 @@
-.row-cols-2>* {
-    flex: 0 0 auto;
-    width: 44%;
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+.row-cols-2 > * {
+  flex: 0 0 auto;
+  width: 44%;
 }
 
 .wrapper {
-    padding-left: 15rem;
+  padding-left: 15rem;
 }
 
 .bg-dark {
-    --bs-bg-opacity: 1;
-    background-color: #ffdab9 !important;
-    padding: 0 !important;
+  --bs-bg-opacity: 1;
+  background-color: #ffdab9 !important;
+  padding: 0 !important;
 }
 
-.btn-check:focus+.btn,
+.btn-check:focus + .btn,
 .btn:focus {
-    outline: 0;
-    box-shadow: none !important;
+  outline: 0;
+  box-shadow: none !important;
 }
 
 .margin-on-top {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .margin-and-float {
-    width: 280px;
-    float: left;
-    margin-right: 1rem;
+  width: 280px;
+  float: left;
+  margin-right: 1rem;
 }
 
 .yummy-logo {
-    margin-right: auto;
-    margin-bottom: 5px;
+  margin-right: auto;
+  margin-bottom: 5px;
 }
 
 .ingredients li:nth-child(even) {
-    background-color: rgb(240, 240, 240);
+  background-color: rgb(240, 240, 240);
 }
 
 .card-img-top {
+  max-width: 700px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 3rem;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px -3.5px #000;
+}
+
+/*niki css Anfang*/
+
+div.card-oat {
+  background-color: #fceae6;
+}
+
+div.card-fritters {
+  background-color: #fceae6;
+}
+
+/*niki css Ende*/
+=======
     max-width: 700px !important;
     margin-left: auto !important;
     margin-right: auto !important;
