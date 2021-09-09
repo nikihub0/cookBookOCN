@@ -51,21 +51,6 @@
 
 /*niki css Anfang*/
 
-/*li.liHead {
-  background-color: lavenderblush !important;
-}
-
-
-div.card-body-crumble {
-  background-color: lavenderblush;
-}*/
-
-div.card-crumble {
-  background-color: #fceae6;
-}
-/*div.card-truffle {
-  background-color: #fceae6;
-}*/
 div.card-oat {
   background-color: #fceae6;
 }
@@ -75,3 +60,59 @@ div.card-fritters {
 }
 
 /*niki css Ende*/
+=======
+    max-width: 700px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 3rem;
+    border-radius: 10px;
+    box-shadow: 1px 4px 9px -4.5px #000;
+}
+
+
+/* This is for the JS - by Chris */
+
+#falafel,
+#chorizo,
+#masala {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 10%;
+    top: 100;
+    left: 100;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+#info-icon {
+    cursor: pointer;
+    margin-left: 5px;
+    width: 25px;
+    margin-bottom: 7px;
+}
+
+.overlay-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.overlay-item {
+    width: 3rem;
+    font-weight: 700;
+    padding-top: 1.1rem;
+    width: 7rem;
+    background-color: white;
+    margin-top: 0.8rem;
+    text-align: center;
+    height: 4rem;
+    border-radius: 5px;
+    border: 3px solid rgb(230 129 129);
+    color: rgb(22, 22, 22);
+}
+
+
+/* End for the JS - by Chris */
