@@ -1,0 +1,35 @@
+#card-olena {
+  background-color: #e0f8f7;
+}
+
+.card-body-borscht {
+  background-color: #f5f6ce;
+}
+.but {
+  background-color: #a9bcf5;
+}
+/*-------------------------------------------*/
+
+/* increase image */
+
+.scale {
+  transition: 1s;
+  /* Effect time  */
+}
+
+.scale:hover {
+  transform: scale(1.2);
+  /* Zoom in  */
+}
+
+/*CSS tooltip */
+
+/*---------keks---------------*/
+
+#card-olena1 {
+  background-color: #f6ced8;
+}
+
+.card-body-keks {
+  background-color: #cccccc;
+}
