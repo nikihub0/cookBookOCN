@@ -49,6 +49,8 @@
   box-shadow: 2px 5px 10px -3.5px #000;
 }
 
+/*niki css Anfang*/
+
 /*li.liHead {
   background-color: lavenderblush !important;
 }
@@ -61,9 +63,15 @@ div.card-body-crumble {
 div.card-crumble {
   background-color: #fceae6;
 }
-div.card-truffle {
-  background-color: #dcf4f7;
-}
+/*div.card-truffle {
+  background-color: #fceae6;
+}*/
 div.card-oat {
   background-color: #fceae6;
 }
+
+div.card-fritters {
+  background-color: #fceae6;
+}
+
+/*niki css Ende*/
