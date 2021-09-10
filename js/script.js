@@ -6,6 +6,7 @@ const borscht = document.getElementById('borscht');
 const cupcake = document.getElementById('cupcake');
 const crumble = document.getElementById('crumble');
 const pistachio = document.getElementById('pistachio');
+const fritters = document.getElementById('fritters');
 
 const toggleInfo = (param) => {
     switch (param) {
@@ -32,6 +33,9 @@ const toggleInfo = (param) => {
             break;
         case 'pistachio':
             pistachio.style.display === 'block' ? pistachio.style.display = 'none' : pistachio.style.display = 'block';
+            break;
+        case 'fritters':
+            fritters.style.display === 'block' ? fritters.style.display = 'none' : fritters.style.display = 'block';
             break;
     }
 }
