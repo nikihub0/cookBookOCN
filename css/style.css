@@ -74,7 +74,12 @@ div.card-fritters {
 
 #falafel,
 #chorizo,
-#masala {
+#masala,
+#cheeseCake,
+#borscht,
+#cupcake,
+#crumble,
+#pistachio {
     position: fixed;
     display: none;
     width: 100%;

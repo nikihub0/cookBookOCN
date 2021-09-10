@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/sidebars.css" />
-    <link rel="stylesheet" href="css/headers.css" />
-    <link rel="stylesheet" href="css/cheesecake.css" />
-    <title>CookBook</title>
-  </head>
 
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sidebars.css">
+    <link rel="stylesheet" href="css/headers.css">
+    <link rel="stylesheet" href="css/cheesecake.css">
+    <link rel="stylesheet" href="css/borscht.css">
+    <title>CookBook</title>
+</head>
+
+<body>
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
       <symbol id="bootstrap" viewBox="0 0 118 94">
         <title>Bootstrap</title>
@@ -60,257 +57,61 @@
       </symbol>
     </svg>
     <header id="main-header">
-      <div class="px-3 py-2 bg-dark text-white">
-        <div class="container">
-          <div
-            class="
+        <div class="px-3 py-2 bg-dark text-white">
+            <div class="container">
+                <div class="
               d-flex
               flex-wrap
               align-items-center
               justify-content-center justify-content-lg-start
-            "
-          >
-            <img class="yummy-logo" src="img/logo-80px.png" />
-          </div>
+            ">
+                    <img class="yummy-logo" src="img/logo-80px.png" />
+                </div>
+            </div>
         </div>
-      </div>
     </header>
 
     <div class="container">
-      <div class="row">
-        <div class="col-3">
-          <div class="flex-shrink-0 p-3 bg-white">
-            <ul class="list-unstyled ps-0">
-              <li class="mb-1">
-                <button
-                  class="btn btn-toggle align-items-center rounded collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#home-collapse"
-                  aria-expanded="true"
-                >
-                  Salad
-                </button>
-                <div class="collapse show" id="home-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li>
-                      <a
-                        href="ultimate-chicken-salad.html"
-                        class="link-dark rounded"
-                        >Chicken Salad</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="link-dark rounded">With Something</a>
-                    </li>
-                    <li><a href="#" class="link-dark rounded">Reports</a></li>
-                  </ul>
-                </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="flex-shrink-0 p-3 bg-white">
+                    <ul class="list-unstyled ps-0">
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">Cooking</button>
+                            <div class="collapse show" id="home-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="#cupcake-rec" class="link-dark rounded">Cupcake</a></li>
+                                    <li><a href="#pistachio-rec" class="link-dark rounded">Pistachio Squares</a></li>
+                                    <li><a href="#cheeseCake-rec" class="link-dark rounded">Truffle Cheesecake</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">International</button>
+                            <div class="collapse" id="dashboard-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="#borscht-rec" class="link-dark rounded">Borscht</a></li>
+                                    <li><a href="#falafel-rec" class="link-dark rounded">Wraps</a></li>
+                                    <li><a href="#masala-rec" class="link-dark rounded">Prawn Masala</a></li>
+                                    <li><a href="#fritters-rec" class="link-dark rounded">GREEK ZUCCHINI FRITTERS</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">Pound raising</button>
+                            <div class="collapse" id="orders-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="#chorizo-rec" class="link-dark rounded">Chorizo Gnocchi</a></li>
+                                    <li><a href="#crumble-rec" class="link-dark rounded">Apple Crumble</a></li>
+                                    <li><a href="#pistachio-rec" class="link-dark rounded">Pistachio Squares</a></li>
+                                </ul>
+                            </div>
+                        </li>
 
-              </li>
-              <li class="mb-1">
-                <button
-                  class="btn btn-toggle align-items-center rounded collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#dashboard-collapse"
-                  aria-expanded="false"
-                >
-                  Cake
-                </button>
-                <div class="collapse" id="dashboard-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li>
-                      <a href="choco-cake.html" class="link-dark rounded"
-                        >Chocolate</a
-                      >
-                    </li>
-                    <li><a href="#" class="link-dark rounded">Weekly</a></li>
-                    <li><a href="#" class="link-dark rounded">Monthly</a></li>
-                    <li><a href="#" class="link-dark rounded">Annually</a></li>
-                  </ul>
+                    </ul>
                 </div>
-              </li>
-              <li class="mb-1">
-                <button
-                  class="btn btn-toggle align-items-center rounded collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#orders-collapse"
-                  aria-expanded="false"
-                >
-                  Orders
-                </button>
-                <div class="collapse" id="orders-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-dark rounded">New</a></li>
-                    <li><a href="#" class="link-dark rounded">Processed</a></li>
-                    <li><a href="#" class="link-dark rounded">Shipped</a></li>
-                    <li><a href="#" class="link-dark rounded">Returned</a></li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-9 my-3 col-xs-1">
-          <div class="card">
-            <img src="img/truffle.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h3 class="card-title text-center">TRUFFLE CHEESE CAKE</h3>
-              <ul class="list-group list-group-flush text-bold ingredients">
-                <li class="list-group-item text-uppercase">
-                  <h3>Ingredients</h3>
-                </li>
-                <li class="list-group-item">
-                  1 1/4 cups graham cracker crumbs
-                </li>
-                <li class="list-group-item">1/4 cup white sugar</li>
-                <li class="list-group-item">2 teaspoons ground cinnamon</li>
-                <li class="list-group-item">
-                  2 (10 ounce) packages frozen sweetened sliced strawberries,
-                  thawed and drained
-                </li>
-                <li class="list-group-item">1 tablespoon cornstarch</li>
-                <li class="list-group-item">
-                  3 (8 ounce) packages cream cheese, softened
-                </li>
-                <li class="list-group-item">
-                  1 (14 ounce) can sweetened condensed milk
-                </li>
-                <li class="list-group-item">1/4 cup lemon juice</li>
-                <li class="list-group-item">1/2 teaspoon vanilla extract</li>
-                <li class="list-group-item">3 eggs</li>
-                <li class="list-group-item">1 tablespoon salt (optional)</li>
-                <li class="list-group-item">1 tablespoon water (optional)</li>
-              </ul>
-              <hr />
-              <h3>Instructions</h3>
-              <p class="card-text">
-                Combine graham cracker crumbs, sugar, cinnamon, and butter in a
-                bowl. Press onto the bottom of an ungreased 9-inch springform
-                pan. Refrigerate for 30 minutes. Preheat oven to 300 degrees F
-                (150 degrees C). Place strawberries and cornstarch into a
-                blender. Cover and puree until smooth. Pour strawberry sauce
-                into a saucepan.<br /><br />
-                Bring to a boil over high heat. Boil and stir until sauce is
-                thick and shiny, about 2 minutes. Set aside 1/3 cup strawberry
-                sauce; cool. Cover and refrigerate remaining sauce for
-                serving.<br /><br />
-                Beat cream cheese in a mixing bowl with an electric mixer until
-                light and fluffy; gradually beat in condensed milk. Mix in lemon
-                juice and vanilla extract, then beat in eggs on low speed until
-                just combined. Pour half of cream cheese mixture over crust;
-                drop half of reserved strawberry sauce by 1/2 teaspoonfuls on
-                cream cheese layer. Carefully spoon remaining cream cheese
-                mixture over sauce; drop remaining strawberry sauce by 1/2
-                teaspoonfuls on top. Cut through top layer only with a knife to
-                swirl strawberry sauce.<br /><br />
-                Bake in preheated oven until center is almost set, 45 to 50
-                minutes. Cool on a wire rack for 10 minutes. Carefully run a
-                knife around edge of pan to loosen; cool 1 hour longer.
-                Refrigerate overnight. Serve reserved strawberry sauce with
-                cheesecake. If the sauce it too thick, stir in water.
-              </p>
-            </div>
-          </div>
-          <hr />
-          <div class="card card-crumble">
-            <img
-              src="img\apfelCrumbleNeu.jpg"
-              class="card-img-top"
-              alt="Apple Crumble"
-            />
-            <div class="card-body card-body-crumble">
-              <h3 class="card-title text-center">DREAMY APPLE CRUMBLE</h3>
-              <p class="lead">
-                This easy Apple Crumble recipe is true comfort food with sweet
-                caramelized apple filling and crunchy cinnamon topping. Total
-                crowd pleaser and ready in under an hour!
-              </p>
-              <ul class="list-group list-group-flush text-bold ingredients">
-                <li class="list-group-item text-uppercase">
-                  <h3>Ingredients</h3>
-                </li>
-                <li class="list-group-item liHead">For the Filling:</li>
-                <li class="list-group-item">4 apples, peeled and diced</li>
-                <li class="list-group-item">1 tablespoon lemon juice</li>
-                <li class="list-group-item">⅓ cup granulated sugar</li>
-                <li class="list-group-item">⅓ cup light brown sugar, packed</li>
-                <li class="list-group-item">1 vanilla pod</li>
-                <li class="list-group-item liHead">For the Crumble:</li>
-                <li class="list-group-item">1 teaspoon cinnamon</li>
-                <li class="list-group-item">¼ cup all-purpose flour</li>
-                <li class="list-group-item">1 cup light brown sugar, packed</li>
-                <li class="list-group-item">1 cup all-purpose flour</li>
-                <li class="list-group-item">1 cup quick cook oats</li>
-                <li class="list-group-item">
-                  ½ cup cold unsalted butter, cubed
-                </li>
-                <li class="list-group-item">1 teaspoon cinnamon</li>
-              </ul>
-              <hr />
-              <h3>Instructions</h3>
-              <p class="card-text">
-                In a large bowl, combine diced apples with lemon juice, sugars,
-                cinnamon and flour. Pour into a 2qt baking dish. In a separate
-                bowl, combine crumble ingredients. Use hands to combine butter
-                until crumbly (this takes a few minutes). Sprinkle over top of
-                apple mixtures. Press lightly. Bake in a 375 degree oven for
-                45-50 minutes, until bubbly and caramelized. Enjoy warm with a
-                scoop of ice cream!
-              </p>
-            </div>
-          </div>
-          <hr />
-          <div class="card card-oat">
-            <img src="img\oatsquaresNeu.jpg" class="card-img-top" alt="" />
-            <div class="card-body card-body-oat">
-              <h3 class="card-title text-center">PISTACHIO OAT SQUARES</h3>
-              <p class="lead">
-                6-ingredient Pistachio Oat Squares are a lightly sweet healthy
-                snack, breakfast, or dessert! Easy to make, vegan, and gluten
-                free.
-              </p>
-              <ul class="list-group list-group-flush text-bold ingredients">
-                <li class="list-group-item text-uppercase">
-                  <h3>Ingredients</h3>
-                </li>
-
-                <li class="list-group-item">1 cup raw shelled pistachios</li>
-                <li class="list-group-item">1 cup rolled oats</li>
-                <li class="list-group-item">½ teaspoon sea salt</li>
-                <li class="list-group-item">
-                  ¼ cup maple syrup, more for drizzling on top
-                </li>
-                <li class="list-group-item">2 tablespoons olive oil</li>
-                <li class="list-group-item">
-                  ⅓ cup unsweetened coconut flakes
-                </li>
-                <li class="list-group-item">
-                  additional handful of chopped pistachios for the topping
-                </li>
-              </ul>
-              <hr />
-              <h3>Instructions</h3>
-              <p class="card-text">
-                Preheat the oven to 350 degrees and line an 8-inch square pan
-                with parchment paper. In a food processor with the S blade
-                attached, process the pistachios, oats, and salt for about 30
-                seconds, until a meal starts to form. Drizzle in the maple syrup
-                and olive oil while the motor is still running and the meal
-                begins to come together into a crumbly, almost-wet dough. Press
-                the dough evenly into the pan and cover it with coconut flakes
-                and remaining pistachios. Bake for 10 to 12 minutes until the
-                coconut is nice and golden brown and the dough is cooked
-                through. You want the squares to still be a little soft - don't
-                overbake these. Carefully lift the cooled dough out of the pan
-                by holding two sides of the parchment paper. Cut it into
-                squares. Drizzle a little maple syrup over the top for extra
-                sweetness, if you like. Store the squares in a sealed container
-                for up to a week.
-              </p>
-
             </div>
             <div class="col-9 my-3 col-xs-1">
-
                 <!-------------------- START SLIDER ----------------------->
 
 
@@ -321,6 +122,10 @@
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">
@@ -334,6 +139,21 @@
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
                             <a href="#masala-rec"><img src="img/prawn-tikka-masala.jpg" class="d-block w-100" alt="Ultimate Tikki Masala"></a>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <a href="#borscht-rec"><img src="img/borscht.png" class="d-block w-100" alt="Borscht"></a>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <a href="#cupcake-rec"><img src="img/keks.png" class="d-block w-100" alt="SWEET CAROL'S VELVET CUPCAKE"></a>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <a href="#crumble-rec"><img src="img/apple-crumble.jpg" class="d-block w-100" alt="DREAMY APPLE CRUMBLE"></a>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <a href="#pistachio-rec"><img src="img/pistachio.jpg" class="d-block w-100" alt="PISTACHIO OAT SQUARES"></a>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <a href="#fritters-rec"><img src="img/kolokithokeftedes2.jpg" class="d-block w-100" alt="PISTACHIO OAT SQUARES"></a>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -353,8 +173,18 @@
 
                 <div class="card" id="cheeseCake-rec">
                     <img src="img/cheeseCake2.png" class="card-img-top" alt="...">
+                    <div id="cheeseCake">
+                        <div class="overlay-content">
+                            <div class="overlay-item">kcal: 608</div>
+                            <div class="overlay-item">fat: 33g</div>
+                            <div class="overlay-item">carbs: 69g</div>
+                            <div class="overlay-item">sugar: 52g</div>
+                            <div class="overlay-item">protein: 7g</div>
+                            <div class="overlay-item">salt: 0.7g</div>
+                        </div>
+                    </div>
                     <div class="card-body">
-                        <h3 class="card-title text-center">TRUFFLE CHEESE CAKE</h3>
+                        <h3 class="card-title text-center">TRUFFLE CHEESE CAKE<img src="img/info-icon.png" id="info-icon" onclick="toggleInfo('cheeseCake')"></h3>
                         <ul class="list-group list-group-flush text-bold ingredients">
                             <li class="list-group-item text-uppercase">
                                 <h3>Ingredients</h3>
@@ -383,218 +213,408 @@
                     </div>
                 </div>
                 <hr>
-                <div class="card" id="chorizo-rec">
-                    <img src="img/chorizo-mozzarella-gnocchi.jpg" class="card-img-top" alt="Chorizo Mozzarella Gnocchi">
-                    <div id="chorizo">
+                <!-------------------------------Olena--------------------------->
+                <div class="card card-body-borscht" id="borscht-rec">
+                    <img src="img/borscht.png" class="card-img-top scale" alt="...">
+                    <div id="borscht">
                         <div class="overlay-content">
-                            <div class="overlay-item">kcal: 318</div>
-                            <div class="overlay-item">fat: 13g</div>
-                            <div class="overlay-item">carbs: 36g</div>
-                            <div class="overlay-item">sugar: 8g</div>
-                            <div class="overlay-item">protein: 13g</div>
-                            <div class="overlay-item">salt: 1.7g</div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title text-center">Chorizo Mozzarella Gnocchi</h3>
-                        <ul class="list-group list-group-flush text-bold ingredients">
-                            <li class="list-group-item text-uppercase">
-                                <h3>Ingredients<img src="img/info-icon.png" id="info-icon" onclick="toggleInfo('chorizo')"></h3>
-                            </li>
-                            <li class="list-group-item">1 tbsp olive oil</li>
-                            <li class="list-group-item">1 onion , finely chopped</li>
-                            <li class="list-group-item">2 garlic cloves , crushed</li>
-                            <li class="list-group-item">120g chorizo , diced</li>
-                            <li class="list-group-item">2 x 400g cans chopped tomatoes</li>
-                            <li class="list-group-item">1 tsp caster sugar</li>
-                            <li class="list-group-item">600g fresh gnocchi</li>
-                            <li class="list-group-item">125g mozzarella ball, cut into chunks</li>
-                            <li class="list-group-item">small bunch of basil , torn</li>
-                            <li class="list-group-item">green salad , to serve</li>
-                        </ul>
-                        <hr>
-                        <h3>Instructions</h3>
-                        <p class="card-text">
-                            <h6>STEP 1</h6>
-                            Heat the oil in a medium pan over a medium heat. Fry the onion and garlic for 8-10 mins until soft. Add the chorizo and fry for 5 mins more. Tip in the tomatoes and sugar, and season. Bring to a simmer, then add the gnocchi and cook for 8 mins, stirring
-                            often, until soft. Heat the grill to high.
-
-                            <h6>STEP 2</h6>
-                            Stir ¾ of the mozzarella and most of the basil through the gnocchi. Divide the mixture between six ovenproof ramekins, or put in one baking dish. Top with the remaining mozzarella, then grill for 3 mins, or until the cheese is melted and golden. Season,
-                            scatter over the remaining basil and serve with green salad.
-                    </div>
-                </div>
-                <hr>
-                <div class="card" id="falafel-rec">
-                    <img src="img/falafel-wrap.jpg" class="card-img-top" alt="Ultimate Falafel Wrap">
-                    <div id="falafel">
-                        <div class="overlay-content">
-                            <div class="overlay-item">kcal: 697</div>
-                            <div class="overlay-item">fat: 31g</div>
+                            <div class="overlay-item">kcal: 651</div>
+                            <div class="overlay-item">fat: 17g</div>
                             <div class="overlay-item">carbs: 74g</div>
-                            <div class="overlay-item">sugar: 13g</div>
-                            <div class="overlay-item">protein: 24g</div>
-                            <div class="overlay-item">salt: 1.6g</div>
+                            <div class="overlay-item">sugar: 14g</div>
+                            <div class="overlay-item">protein: 43g</div>
+                            <div class="overlay-item">salt: 0.26g</div>
                         </div>
                     </div>
-                    <div class="card-body">
-                        <h3 class="card-title text-center">Ultimate Falafel Wrap</h3>
+                    <div class="card-body" id="card-olena">
+                        <h3 class="card-title text-center">Ukrainian Red Borscht Soup<img src="img/info-icon.png" id="info-icon" onclick="toggleInfo('borscht')"></h3>
                         <ul class="list-group list-group-flush text-bold ingredients">
                             <li class="list-group-item text-uppercase">
-                                <h3>Ingredients<img src="img/info-icon.png" id="info-icon" onclick="toggleInfo('falafel')"></h3>
+                                <h3>Ingredients</h3>
                             </li>
-                            <li class="list-group-item">1 Middle Eastern-style flatbread or pitta</li>
-                            <li class="list-group-item">4-5 falafels (see recipe below)</li>
-                            <li class="list-group-item">4-5 slices avocado</li>
-                            <li class="list-group-item">small handful of parsley, coriander and mint leaves</li>
-                            <li class="list-group-item">½ lime, juiced</li>
-                            <li class="list-group-item">generous drizzle of sriracha</li>
-                            <li class="list-group-item" style="font-weight: 700">Following for the Tahini Sauce</li>
-                            <li class="list-group-item">75ml natural yogurt</li>
-                            <li class="list-group-item">½ tbsp tahini</li>
-                            <li class="list-group-item">½ lemon, juiced</li>
-                            <li class="list-group-item">1 small garlic clove, crushed</li>
-                            <li class="list-group-item">pinch of ground cumin</li>
+                            <li class="list-group-item">1 (16 ounce) package pork sausage</li>
+                            <li class="list-group-item">3 medium beets, peeled and shredded</li>
+                            <li class="list-group-item">3 carrots, peeled and shredded</li>
+                            <li class="list-group-item">3 medium baking potatoes, peeled and cubed</li>
+                            <li class="list-group-item">1 tablespoon vegetable oil</li>
+                            <li class="list-group-item">1 medium onion, chopped</li>
+                            <li class="list-group-item">1 (6 ounce) can tomato paste</li>
+                            <li class="list-group-item">¾ cup water</li>
+                            <li class="list-group-item">½ medium head cabbage, cored and shredded</li>
+                            <li class="list-group-item">1 (8 ounce) can diced tomatoes, drained</li>
+                            <li class="list-group-item">3 cloves garlic, minced</li>
+                            <li class="list-group-item">salt and pepper to taste</li>
+                            <li class="list-group-item">1 teaspoon white sugar, or to taste</li>
+                            <li class="list-group-item">½ cup sour cream, for topping</li>
+                            <li class="list-group-item">1 tablespoon chopped fresh parsley for garnish</li>
                         </ul>
                         <hr>
                         <h3>Instructions</h3>
-                        <p class="card-text">
-                            <h6>STEP 1</h6>
-                            For the tahini sauce, mix together all the ingredients with some seasoning in a small bowl.
+                        <p class="card-text">Crumble the sausage (if using) into a skillet over medium-high heat. Cook and stir until no longer pink. Remove from the heat and set aside.
+                            <br><br> Fill a large pot halfway with water(about 2 quarts), and bring to a boil. Add the sausage, and cover the pot. Return to a boil. Add the beets, and cook until they have lost their color. Add the carrots and potatoes,
+                            and cook until tender, about 15 minutes. Add the cabbage, and the can of diced tomatoes.
+                            <br><br>Heat the oil in a skillet over medium heat. Add the onion, and cook until tender. Stir in the tomato paste and water until well blended. Transfer to the pot. Add the raw garlic to the soup, cover and turn off the heat.
+                            Let stand for 5 minutes. Taste, and season with salt, pepper and sugar.
+                            <br><br> Ladle into serving bowls, and garnish with sour cream, if desired, and fresh parsley.
 
-                            <h6>STEP 2</h6>
-                            Warm the flatbread in a dry frying pan – around 30 seconds on each side. Spoon the tahini sauce onto the flatbread and top with the falafel and avocado, then scatter with the herbs, squeeze over the lime juice and add the chilli sauce. Roll up and enjoy.
+                    </div>
+                    <div class="but">
+                        <p id="but" style="text-align: center" onclick="clickAlert()"><button>Click on me</button></p>
+
+                        <script>
+                            function clickAlert() {
+                                alert("Hey, it's time to take a break and cook!");
+                            }
+                        </script>
                     </div>
                 </div>
                 <hr>
-                <div class="card" id="masala-rec">
-                    <img src="img/prawn-tikka-masala.jpg" class="card-img-top" alt="Prwan Tikka Masala">
-                    <div id="masala">
+                <!-------------------------------Olena--------------------------->
+                <div class="card card-body-keks" id="cupcake-rec">
+                    <img src="img/keks.png" class="card-img-top scale" alt="...">
+                    <div id="cupcake">
                         <div class="overlay-content">
-                            <div class="overlay-item">kcal: 432</div>
-                            <div class="overlay-item">fat: 16g</div>
-                            <div class="overlay-item">carbs: 50g</div>
-                            <div class="overlay-item">sugar: 12g</div>
-                            <div class="overlay-item">protein: 18g</div>
-                            <div class="overlay-item">salt: 1.1g</div>
+                            <div class="overlay-item">kcal: 361</div>
+                            <div class="overlay-item">fat: 19g</div>
+                            <div class="overlay-item">carbs: 41g</div>
+                            <div class="overlay-item">sugar: 34g</div>
+                            <div class="overlay-item">protein: 3g</div>
+                            <div class="overlay-item">salt: 0.6g</div>
                         </div>
                     </div>
-                    <div class="card-body">
-                        <h3 class="card-title text-center">Prwan Tikka Masala</h3>
+                    <div class="card-body" id="card-olena1">
+                        <h3 class="card-title text-center">SWEET CAROL'S VELVET CUPCAKE<img src="img/info-icon.png" id="info-icon" onclick="toggleInfo('cupcake')"></h3>
                         <ul class="list-group list-group-flush text-bold ingredients">
                             <li class="list-group-item text-uppercase">
-                                <h3>Ingredients<img src="img/info-icon.png" id="info-icon" onclick="toggleInfo('masala')"></h3>
+                                <h3>Ingredients</h3>
                             </li>
-                            <li class="list-group-item">1 large onion , roughly chopped</li>
-                            <li class="list-group-item">1 thumb-sized piece ginger , peeled and grated</li>
-                            <li class="list-group-item">2 large garlic cloves</li>
-                            <li class="list-group-item">1 tbsp rapeseed oil</li>
-                            <li class="list-group-item">2-3 tbsp tikka curry paste</li>
-                            <li class="list-group-item">400g can chopped tomatoes</li>
-                            <li class="list-group-item">2 tbsp tomato purée</li>
-                            <li class="list-group-item">½ tbsp light brown soft sugar</li>
-                            <li class="list-group-item">3 cardamom pods , bashed</li>
-                            <li class="list-group-item">200g brown basmati rice</li>
-                            <li class="list-group-item">3 tbsp ground almonds</li>
-                            <li class="list-group-item">300g raw king prawns</li>
-                            <li class="list-group-item">1 tbsp double cream</li>
-                            <li class="list-group-item">½ bunch of coriander , roughly chopped</li>
-                            <li class="list-group-item">naan breads , warmed, to serve (optional)</li>
+                            <li class="list-group-item">12 1/2 cups flour</li>
+                            <li class="list-group-item">11/2 cup cocoa powder</li>
+                            <li class="list-group-item">11 teaspoon baking soda</li>
+                            <li class="list-group-item">11/2 teaspoon salt</li>
+                            <li class="list-group-item">11 cup butter, softtened</li>
+                            <li class="list-group-item">12 cups sugar</li>
+                            <li class="list-group-item">14 eggs</li>
+                            <li class="list-group-item">11 cup sour</li>
+                            <li class="list-group-item">11/2 cup</li>
+                            <li class="list-group-item">11 bottle Red Food Color</li>
+                            <li class="list-group-item">12 teaspoons Vanilla Extract</li>
+                            <li class="list-group-item">11 package cream cheese</li>
                         </ul>
                         <hr>
                         <h3>Instructions</h3>
-                        <p class="card-text">
-                            <h6>STEP 1</h6>
-                            Put the onion, ginger and garlic in a food processor and blitz to a smooth paste. Heat the oil in a large flameproof casserole dish or pan over a medium heat. Add the onion paste and fry for 8 mins or until lightly golden. Stir in the curry paste and
-                            fry for 1 min more. Add the tomatoes, tomato purée, sugar and cardamom pods. Bring to a simmer and cook, covered, for another 10 mins.
+                        <p class="card-text">To make the cupcakes; preheat the oven to 350 degrees and place cupcake papers in a cupcake pan. In a large bowl, sift the dry ingredients (including the sugar) into the bowl of a stand mixer and give it a whisk.
+                            <br><br> In a separate bowl, whisk together the wet ingredients until they are well combined, then add some red food coloring. (The batter may be clumpy but do not worry).
+                            <br><br>Cut the butter into tablespoon sized dollops and add it to the dry ingredients in the stand mixer and beat together. This should get you a sort of crumbly mixture.
 
-                            <h6>STEP 2</h6>
-                            Cook the rice following pack instructions.
+                            <br><br> With your mixer running on low, add the wet ingredients to the dry mixture and mix until everything is incorporated.
+                            <br><br> You may want to add a dash or two more of red food coloring until you reach the desired color.
+                            <br><br> Distribute the batter evenly into the cupcake papers and bake for 15 to 20 minutes or until the cupcakes are golden and springy to the touch.
+                            <br><br> For the cream cheese frosting; start off by sifting the confectioners sugar into a large bowl so there are not any lumps.
+                            <br><br> Cream the room temperature butter in a standing mixer with a paddle attachment on medium speed until it is nice and smooth.
+                            <br><br> Add the cream cheese and beat together until they’re combined then add the vanilla and salt. Slowly add the sifted confectioners sugar in cups and mix until combined.
+                            <div class="but">
+                                <p id="but" style="text-align: center" onclick="clickAlert()"><button>Click on me</button></p>
 
-                            <h6>STEP 3</h6>
-                            Scoop the cardamom out of the curry sauce and discard, then blitz with a hand blender, or in a clean food processor. Return to the pan, add the almonds and prawns, and cook for 5 mins. Season to taste and stir through the cream and coriander. Serve with
-                            the rice and naan breads, if you like.
+                                <script>
+                                    function clickAlert() {
+                                        alert("Hey, it's time to take a break and cook!");
+                                    }
+                                </script>
+
+                            </div>
+
                     </div>
+                    <hr>
+                    <!-------------------------------Olena--------------------------->
+                    <div class="card" id="chorizo-rec">
+                        <img src="img/chorizo-mozzarella-gnocchi.jpg" class="card-img-top" alt="Chorizo Mozzarella Gnocchi">
+                        <div id="chorizo">
+                            <div class="overlay-content">
+                                <div class="overlay-item">kcal: 318</div>
+                                <div class="overlay-item">fat: 13g</div>
+                                <div class="overlay-item">carbs: 36g</div>
+                                <div class="overlay-item">sugar: 8g</div>
+                                <div class="overlay-item">protein: 13g</div>
+                                <div class="overlay-item">salt: 1.7g</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Chorizo Mozzarella Gnocchi</h3>
+                            <ul class="list-group list-group-flush text-bold ingredients">
+                                <li class="list-group-item text-uppercase">
+                                    <h3>Ingredients<img src="img/info-icon.png" id="info-icon" onclick="toggleInfo('chorizo')"></h3>
+                                </li>
+                                <li class="list-group-item">1 tbsp olive oil</li>
+                                <li class="list-group-item">1 onion , finely chopped</li>
+                                <li class="list-group-item">2 garlic cloves , crushed</li>
+                                <li class="list-group-item">120g chorizo , diced</li>
+                                <li class="list-group-item">2 x 400g cans chopped tomatoes</li>
+                                <li class="list-group-item">1 tsp caster sugar</li>
+                                <li class="list-group-item">600g fresh gnocchi</li>
+                                <li class="list-group-item">125g mozzarella ball, cut into chunks</li>
+                                <li class="list-group-item">small bunch of basil , torn</li>
+                                <li class="list-group-item">green salad , to serve</li>
+                            </ul>
+                            <hr>
+                            <h3>Instructions</h3>
+                            <p class="card-text">
+                                <h6>STEP 1</h6>
+                                Heat the oil in a medium pan over a medium heat. Fry the onion and garlic for 8-10 mins until soft. Add the chorizo and fry for 5 mins more. Tip in the tomatoes and sugar, and season. Bring to a simmer, then add the gnocchi and cook for 8 mins, stirring
+                                often, until soft. Heat the grill to high.
+
+                                <h6>STEP 2</h6>
+                                Stir ¾ of the mozzarella and most of the basil through the gnocchi. Divide the mixture between six ovenproof ramekins, or put in one baking dish. Top with the remaining mozzarella, then grill for 3 mins, or until the cheese is melted and golden. Season,
+                                scatter over the remaining basil and serve with green salad.
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card card-crumble" id="crumble-rec">
+                        <img src="img\apple-crumble.jpg" class="card-img-top" alt="Apple Crumble" />
+                        <div id="crumble">
+                            <div class="overlay-content">
+                                <div class="overlay-item">kcal: 218</div>
+                                <div class="overlay-item">fat: 7g</div>
+                                <div class="overlay-item">carbs: 40g</div>
+                                <div class="overlay-item">sugar: 27g</div>
+                                <div class="overlay-item">protein: 2g</div>
+                                <div class="overlay-item">salt: 0.16g</div>
+                            </div>
+                        </div>
+                        <div class="card-body card-body-crumble">
+                            <h3 class="card-title text-center">DREAMY APPLE CRUMBLE<img src="img/info-icon.png" id="info-icon" onclick="toggleInfo('crumble')"></h3>
+                            <p class="lead">
+                                This easy Apple Crumble recipe is true comfort food with sweet caramelized apple filling and crunchy cinnamon topping. Total crowd pleaser and ready in under an hour!
+                            </p>
+                            <ul class="list-group list-group-flush text-bold ingredients">
+                                <li class="list-group-item text-uppercase">
+                                    <h3>Ingredients</h3>
+                                </li>
+                                <li class="list-group-item liHead">For the Filling:</li>
+                                <li class="list-group-item">4 apples, peeled and diced</li>
+                                <li class="list-group-item">1 tablespoon lemon juice</li>
+                                <li class="list-group-item">⅓ cup granulated sugar</li>
+                                <li class="list-group-item">⅓ cup light brown sugar, packed</li>
+                                <li class="list-group-item">1 vanilla pod</li>
+                                <li class="list-group-item liHead">For the Crumble:</li>
+                                <li class="list-group-item">1 teaspoon cinnamon</li>
+                                <li class="list-group-item">¼ cup all-purpose flour</li>
+                                <li class="list-group-item">1 cup light brown sugar, packed</li>
+                                <li class="list-group-item">1 cup all-purpose flour</li>
+                                <li class="list-group-item">1 cup quick cook oats</li>
+                                <li class="list-group-item">
+                                    ½ cup cold unsalted butter, cubed
+                                </li>
+                                <li class="list-group-item">1 teaspoon cinnamon</li>
+                            </ul>
+                            <hr />
+                            <h3>Instructions</h3>
+                            <p class="card-text">
+                                In a large bowl, combine diced apples with lemon juice, sugars, cinnamon and flour. Pour into a 2qt baking dish. In a separate bowl, combine crumble ingredients. Use hands to combine butter until crumbly (this takes a few minutes). Sprinkle over top of
+                                apple mixtures. Press lightly. Bake in a 375 degree oven for 45-50 minutes, until bubbly and caramelized. Enjoy warm with a scoop of ice cream!
+                            </p>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="card card-oat" id="pistachio-rec">
+                        <img src="img\pistachio.jpg" class="card-img-top" alt="" />
+                        <div id="pistachio">
+                            <div class="overlay-content">
+                                <div class="overlay-item">kcal: 399</div>
+                                <div class="overlay-item">fat: 28g</div>
+                                <div class="overlay-item">carbs: 28g</div>
+                                <div class="overlay-item">sugar: 20g</div>
+                                <div class="overlay-item">protein: 7g</div>
+                                <div class="overlay-item">salt: 0.4g</div>
+                            </div>
+                        </div>
+                        <div class="card-body card-body-oat">
+                            <h3 class="card-title text-center">PISTACHIO OAT SQUARES<img src="img/info-icon.png" id="info-icon" onclick="toggleInfo('pistachio')"></h3>
+                            <p class="lead">
+                                6-ingredient Pistachio Oat Squares are a lightly sweet healthy snack, breakfast, or dessert! Easy to make, vegan, and gluten free.
+                            </p>
+                            <ul class="list-group list-group-flush text-bold ingredients">
+                                <li class="list-group-item text-uppercase">
+                                    <h3>Ingredients</h3>
+                                </li>
+
+                                <li class="list-group-item">1 cup raw shelled pistachios</li>
+                                <li class="list-group-item">1 cup rolled oats</li>
+                                <li class="list-group-item">½ teaspoon sea salt</li>
+                                <li class="list-group-item">
+                                    ¼ cup maple syrup, more for drizzling on top
+                                </li>
+                                <li class="list-group-item">2 tablespoons olive oil</li>
+                                <li class="list-group-item">
+                                    ⅓ cup unsweetened coconut flakes
+                                </li>
+                                <li class="list-group-item">
+                                    additional handful of chopped pistachios for the topping
+                                </li>
+                            </ul>
+                            <hr />
+                            <h3>Instructions</h3>
+                            <p class="card-text">
+                                Preheat the oven to 350 degrees and line an 8-inch square pan with parchment paper. In a food processor with the S blade attached, process the pistachios, oats, and salt for about 30 seconds, until a meal starts to form. Drizzle in the maple syrup and
+                                olive oil while the motor is still running and the meal begins to come together into a crumbly, almost-wet dough. Press the dough evenly into the pan and cover it with coconut flakes and remaining pistachios. Bake for 10
+                                to 12 minutes until the coconut is nice and golden brown and the dough is cooked through. You want the squares to still be a little soft - don't overbake these. Carefully lift the cooled dough out of the pan by holding
+                                two sides of the parchment paper. Cut it into squares. Drizzle a little maple syrup over the top for extra sweetness, if you like. Store the squares in a sealed container for up to a week.
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card" id="falafel-rec">
+                        <img src="img/falafel-wrap.jpg" class="card-img-top" alt="Ultimate Falafel Wrap">
+                        <div id="falafel">
+                            <div class="overlay-content">
+                                <div class="overlay-item">kcal: 697</div>
+                                <div class="overlay-item">fat: 31g</div>
+                                <div class="overlay-item">carbs: 74g</div>
+                                <div class="overlay-item">sugar: 13g</div>
+                                <div class="overlay-item">protein: 24g</div>
+                                <div class="overlay-item">salt: 1.6g</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Ultimate Falafel Wrap</h3>
+                            <ul class="list-group list-group-flush text-bold ingredients">
+                                <li class="list-group-item text-uppercase">
+                                    <h3>Ingredients<img src="img/info-icon.png" id="info-icon" onclick="toggleInfo('falafel')"></h3>
+                                </li>
+                                <li class="list-group-item">1 Middle Eastern-style flatbread or pitta</li>
+                                <li class="list-group-item">4-5 falafels (see recipe below)</li>
+                                <li class="list-group-item">4-5 slices avocado</li>
+                                <li class="list-group-item">small handful of parsley, coriander and mint leaves</li>
+                                <li class="list-group-item">½ lime, juiced</li>
+                                <li class="list-group-item">generous drizzle of sriracha</li>
+                                <li class="list-group-item" style="font-weight: 700">Following for the Tahini Sauce</li>
+                                <li class="list-group-item">75ml natural yogurt</li>
+                                <li class="list-group-item">½ tbsp tahini</li>
+                                <li class="list-group-item">½ lemon, juiced</li>
+                                <li class="list-group-item">1 small garlic clove, crushed</li>
+                                <li class="list-group-item">pinch of ground cumin</li>
+                            </ul>
+                            <hr>
+                            <h3>Instructions</h3>
+                            <p class="card-text">
+                                <h6>STEP 1</h6>
+                                For the tahini sauce, mix together all the ingredients with some seasoning in a small bowl.
+
+                                <h6>STEP 2</h6>
+                                Warm the flatbread in a dry frying pan – around 30 seconds on each side. Spoon the tahini sauce onto the flatbread and top with the falafel and avocado, then scatter with the herbs, squeeze over the lime juice and add the chilli sauce. Roll up and enjoy.
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card" id="masala-rec">
+                        <img src="img/prawn-tikka-masala.jpg" class="card-img-top" alt="Prwan Tikka Masala">
+                        <div id="masala">
+                            <div class="overlay-content">
+                                <div class="overlay-item">kcal: 432</div>
+                                <div class="overlay-item">fat: 16g</div>
+                                <div class="overlay-item">carbs: 50g</div>
+                                <div class="overlay-item">sugar: 12g</div>
+                                <div class="overlay-item">protein: 18g</div>
+                                <div class="overlay-item">salt: 1.1g</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Prawn Tikka Masala</h3>
+                            <ul class="list-group list-group-flush text-bold ingredients">
+                                <li class="list-group-item text-uppercase">
+                                    <h3>Ingredients<img src="img/info-icon.png" id="info-icon" onclick="toggleInfo('masala')"></h3>
+                                </li>
+                                <li class="list-group-item">1 large onion , roughly chopped</li>
+                                <li class="list-group-item">1 thumb-sized piece ginger , peeled and grated</li>
+                                <li class="list-group-item">2 large garlic cloves</li>
+                                <li class="list-group-item">1 tbsp rapeseed oil</li>
+                                <li class="list-group-item">2-3 tbsp tikka curry paste</li>
+                                <li class="list-group-item">400g can chopped tomatoes</li>
+                                <li class="list-group-item">2 tbsp tomato purée</li>
+                                <li class="list-group-item">½ tbsp light brown soft sugar</li>
+                                <li class="list-group-item">3 cardamom pods , bashed</li>
+                                <li class="list-group-item">200g brown basmati rice</li>
+                                <li class="list-group-item">3 tbsp ground almonds</li>
+                                <li class="list-group-item">300g raw king prawns</li>
+                                <li class="list-group-item">1 tbsp double cream</li>
+                                <li class="list-group-item">½ bunch of coriander , roughly chopped</li>
+                                <li class="list-group-item">naan breads , warmed, to serve (optional)</li>
+                            </ul>
+                            <hr>
+                            <h3>Instructions</h3>
+                            <p class="card-text">
+                                <h6>STEP 1</h6>
+                                Put the onion, ginger and garlic in a food processor and blitz to a smooth paste. Heat the oil in a large flameproof casserole dish or pan over a medium heat. Add the onion paste and fry for 8 mins or until lightly golden. Stir in the curry paste and
+                                fry for 1 min more. Add the tomatoes, tomato purée, sugar and cardamom pods. Bring to a simmer and cook, covered, for another 10 mins.
+
+                                <h6>STEP 2</h6>
+                                Cook the rice following pack instructions.
+
+                                <h6>STEP 3</h6>
+                                Scoop the cardamom out of the curry sauce and discard, then blitz with a hand blender, or in a clean food processor. Return to the pan, add the almonds and prawns, and cook for 5 mins. Season to taste and stir through the cream and coriander. Serve with
+                                the rice and naan breads, if you like.
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="card card-fritters" id="fritters-rec">
+                        <img src="img\kolokithokeftedes2.jpg" class="card-img-top" alt="" />
+                        <div id="fritters">
+                            <div class="overlay-content">
+                                <div class="overlay-item">kcal: 245</div>
+                                <div class="overlay-item">fat: 13g</div>
+                                <div class="overlay-item">carbs: 18g</div>
+                                <div class="overlay-item">sugar: 7.5g</div>
+                                <div class="overlay-item">protein: 13g</div>
+                                <div class="overlay-item">salt: 1.6g</div>
+                            </div>
+                        </div>
+                        <div class="card-body card-body-fritters">
+                            <h3 class="card-title text-center">
+                                GREEK ZUCCHINI FRITTERS (KOLOKITHOKEFTEDES)<img src="img/info-icon.png" id="info-icon" onclick="toggleInfo('fritters')">
+                            </h3>
+                            <p class="lead">
+                                You may have tried to make zucchini fritters in the past and may have been disappointed… since they may turn out heavy or oily. With this recipe, I will let you in on all the secrets to help you make the crunchiest, most aromatic, delicious fritters ever!
+                            </p>
+                            <ul class="list-group list-group-flush text-bold ingredients">
+                                <li class="list-group-item text-uppercase">
+                                    <h3>Ingredients</h3>
+                                </li>
+
+                                <li class="list-group-item">500 g zucchini, grated</li>
+                                <li class="list-group-item">200 g feta cheese, crumbled</li>
+                                <li class="list-group-item">1 bunch basil, finely chopped</li>
+                                <li class="list-group-item">1/3 bunch dill, finely chopped</li>
+                                <li class="list-group-item">
+                                    1 bunch mint, only the leaves, finely chopped
+                                </li>
+                                <li class="list-group-item">2 spring onions, thinly sliced</li>
+                                <li class="list-group-item">lime zest, of 2 limes</li>
+                                <li class="list-group-item">2-3 tablespoon(s) olive oil</li>
+                                <li class="list-group-item">2 eggs</li>
+                                <li class="list-group-item">80 g all-purpose flour</li>
+                                <li class="list-group-item">salt</li>
+                                <li class="list-group-item">pepper</li>
+                            </ul>
+                            <hr />
+                            <h3>Instructions</h3>
+                            <p class="card-text">
+                                Line a large bowl with a thin kitchen towel. Grate the zucchini on to the towel in the bowl, using the large blades of the grater. Sprinkle with a generous amount of salt to help the zucchini release more moisture. Mix and squeeze the mixture with your
+                                hands. Wrap in the towel and squeeze very tightly in your hands to release as much liquid as possible. The less moisture the zucchini mixture has, the crunchier your fritters will become! Transfer from towel to a clean,
+                                dry bowl. Finely chop the green part of the spring onions. Finely chop the mint leaves, dill and basil and add them all to the bowl. Add the lime zest, crumbled feta and 2 eggs. Mix until all of the ingredients are completely
+                                combined. Add the flour and mix just to combine. Do not overmix. Place a nonstick pan over medium to high heat. Add 2-3 tablespoons of olive oil. Pick up spoonfuls of the mixture and carefully add them to the hot oil. Do
+                                not crowd your pan. Gently press down on the patties to spread them out a little. Fry on both sides until nice and golden, just like pancakes! When ready, transfer to a plate lined with paper towels so they can drain from
+                                excess oil. Repeat the same process until all of your mixture has turned in to crunchy fritters.
+                            </p>
+                        </div>
+                    </div>
+                    <hr />
                 </div>
-                <hr>
-
             </div>
-          </div>
-          <hr />
-          <div class="card card-fritters">
-            <img src="img\kolokithokeftedes2.jpg" class="card-img-top" alt="" />
-            <div class="card-body card-body-fritters">
-              <h3 class="card-title text-center">
-                GREEK ZUCCHINI FRITTERS (KOLOKITHOKEFTEDES)
-              </h3>
-              <p class="lead">
-                You may have tried to make zucchini fritters in the past and may
-                have been disappointed… since they may turn out heavy or oily.
-                With this recipe, I will let you in on all the secrets to help
-                you make the crunchiest, most aromatic, delicious fritters ever!
-              </p>
-              <ul class="list-group list-group-flush text-bold ingredients">
-                <li class="list-group-item text-uppercase">
-                  <h3>Ingredients</h3>
-                </li>
-
-                <li class="list-group-item">500 g zucchini, grated</li>
-                <li class="list-group-item">200 g feta cheese, crumbled</li>
-                <li class="list-group-item">1 bunch basil, finely chopped</li>
-                <li class="list-group-item">1/3 bunch dill, finely chopped</li>
-                <li class="list-group-item">
-                  1 bunch mint, only the leaves, finely chopped
-                </li>
-                <li class="list-group-item">2 spring onions, thinly sliced</li>
-                <li class="list-group-item">lime zest, of 2 limes</li>
-                <li class="list-group-item">2-3 tablespoon(s) olive oil</li>
-                <li class="list-group-item">2 eggs</li>
-                <li class="list-group-item">80 g all-purpose flour</li>
-                <li class="list-group-item">salt</li>
-                <li class="list-group-item">pepper</li>
-              </ul>
-              <hr />
-              <h3>Instructions</h3>
-              <p class="card-text">
-                Line a large bowl with a thin kitchen towel. Grate the zucchini
-                on to the towel in the bowl, using the large blades of the
-                grater. Sprinkle with a generous amount of salt to help the
-                zucchini release more moisture. Mix and squeeze the mixture with
-                your hands. Wrap in the towel and squeeze very tightly in your
-                hands to release as much liquid as possible. The less moisture
-                the zucchini mixture has, the crunchier your fritters will
-                become! Transfer from towel to a clean, dry bowl. Finely chop
-                the green part of the spring onions. Finely chop the mint
-                leaves, dill and basil and add them all to the bowl. Add the
-                lime zest, crumbled feta and 2 eggs. Mix until all of the
-                ingredients are completely combined. Add the flour and mix just
-                to combine. Do not overmix. Place a nonstick pan over medium to
-                high heat. Add 2-3 tablespoons of olive oil. Pick up spoonfuls
-                of the mixture and carefully add them to the hot oil. Do not
-                crowd your pan. Gently press down on the patties to spread them
-                out a little. Fry on both sides until nice and golden, just like
-                pancakes! When ready, transfer to a plate lined with paper
-                towels so they can drain from excess oil. Repeat the same
-                process until all of your mixture has turned in to crunchy
-                fritters.
-              </p>
-            </div>
-          </div>
-          <hr />
         </div>
-      </div>
-    </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
-    <script src="js/script.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
 
 </body>
 
